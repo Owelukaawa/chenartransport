@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #f0f0f0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#heading{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1{
+    color: #003366;  
+}
+
+section {
+    background-color: #F7F7F7; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 20px 0; 
+}
+
+h2 {
+    color: #003366; 
+    font-size: 24px; 
+    margin-bottom: 15px; 
+}
+
+.secp {
+    color: #333; 
+    line-height: 1.6; 
+    font-size: 16px; 
+}
+
+.secp::first-letter {
+    font-size: 2em; 
+    color: #FF5733; 
+}
+
+.socialsimage{
+    margin: 20px;
+    text-decoration: none;
+    margin-left: 0px;
+}
+
+.display1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.list {
+    display: grid;
+    place-items: center;
+    margin: 20px;
+    font-size: larger;
+}
+
+.footer{
+    text-align: center; 
+    color:whitesmoke; 
+    background-color: black;
+}
+
+.address{
+    color: goldenrod;
+    justify-content: space-between;
+}
+
+.socialsp{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    color: skyblue;
+}
+
+.socials{
+    margin: 10px;
+    text-decoration: none;
+
+}
+
+#copyright{
+    text-align: center;
+    margin-top: 5px;
+}
